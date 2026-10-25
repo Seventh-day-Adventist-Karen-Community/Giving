@@ -27,6 +27,10 @@
       }
     ],
     "paths": {
+      "@/*": [
+        "./*",
+        "./app/*"
+      ],
       "@components/*": [
         "components/*"
       ],
