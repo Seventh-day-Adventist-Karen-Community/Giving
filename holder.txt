@@ -1,0 +1,92 @@
+'use client'
+
+import Link from 'next/link';
+import React, { useEffect, useState } from 'react'
+import FormUtils from '../../../../components/utils/form-utils';
+import { VerifyAccount } from '../../../../data/auth_mutation';
+
+const Page = async ({ params,searchParams,}: {
+  params: { id: string };
+  searchParams?: { [key: string]: string | string[] | undefined }}) =>{
+
+    const [Loading, setLoading] = useState(false)
+    const [errors, setErrors] = useState<string>()
+    const [success, setSuccess] = useState(false)
+    const [errored, setErrored] = useState(true)
+
+
+    const ActivateUser = async () =>{
+        setSuccess(false)
+        if (!errored){
+            setErrors('')
+            setLoading(true)
+            try{
+
+                const data = await VerifyAccount(
+                    {
+                        token: params.id
+                    }) 
+                    console.log(data)
+                    if(data.success){
+                        setSuccess(true)
+                    } else{
+                        let errorMessage = Object.values(data.errors)[0][0].message
+                        if(errorMessage)
+                            setErrors(errorMessage)
+                        else
+                            setErrors('Email Not Found!')
+                    }
+                }
+                catch (e:any) {
+                    // for(let i in e){
+                    //   console.log(i, e[i])
+                    // }
+                    console.log(e['message'])
+                    if(e['networkError'])
+                      setErrors(e['networkError']);
+                    if(e['message'])
+                      setErrors(e['message']);
+                    
+                 }
+            setLoading(false)
+        }
+    }
+  
+    useEffect(() => {
+        ActivateUser();
+    })
+  return (  
+    <>
+        <div className='py-3 w-full'>
+            <h1 className="text-3xl font-semibold text-center w-full text-maroon-700 underline decoration-wavy">
+                Activate Account
+            </h1>
+        </div>                
+        <FormUtils errors={errors} loading={Loading} success={success}/>
+
+        <p className="mt-8 text-xs font-light text-center text-gray-700">
+            {" "}
+            {`Don't have an account?`}{" "}
+            <Link href='/auth/login' className="font-medium text-maroon-600 hover:underline">
+                Sign up
+            </Link>
+        </p>
+        <p className="mt-2 text-xs font-light text-center text-gray-700">
+            <Link href='/' className="font-medium hover:underline">
+                Back Home
+            </Link>
+        </p>
+    </>
+  )
+}
+
+const CategoryComponent = ({title,description}:{title:string, description?:string|string[]}) =>{
+    return(
+        <div className='w-full md:w-44 text-gray-800'>
+            <h3 className='text-md font-bold'>{title}</h3>
+            <p>{description}</p>
+        </div>
+    )
+}
+
+export default Page

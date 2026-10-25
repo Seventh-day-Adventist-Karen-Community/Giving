@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "sequenceNo":1,
+        "slug": "holy_scriptures",
+        "name": "Holy Scriptures",
+        "categorySlug": "God",
+        "mainPicture":"https://www.adventist.org/wp-content/uploads/2021/02/pexels-piotr-twardowski-5560839-1-edited-800x450.jpg",
+        "content":"Our Creator God is love, power and splendor. He is three-in-one, mysterious and infinite—yet He desires an intimate connection with humanity. He gave us the Bible as His Holy Word, the Bible, so we could learn more about Him and build a relationship with Him. The following statements describe what the Seventh-day Adventist Church believes about God and His Word"
+    },
+    {
+        "id":2,
+        "sequenceNo":2,
+        "slug": "the_trinity",
+        "name": "The Trinity",
+        "categorySlug": "God",
+        "mainPicture":"https://www.adventist.org/wp-content/uploads/2021/02/pexels-piotr-twardowski-5560839-1-edited-800x450.jpg",
+        "content":"Our Creator God is love, power and splendor. He is three-in-one, mysterious and infinite—yet He desires an intimate connection with humanity. He gave us the Bible as His Holy Word, the Bible, so we could learn more about Him and build a relationship with Him. The following statements describe what the Seventh-day Adventist Church believes about God and His Word"
+    },
+    {
+        "id":3,
+        "sequenceNo":3,
+        "slug": "God_the_Father",
+        "name": "God The Father",
+        "categorySlug": "God",
+        "mainPicture":"https://www.adventist.org/wp-content/uploads/2021/02/pexels-piotr-twardowski-5560839-1-edited-800x450.jpg",
+        "content":"Our Creator God is love, power and splendor. He is three-in-one, mysterious and infinite—yet He desires an intimate connection with humanity. He gave us the Bible as His Holy Word, the Bible, so we could learn more about Him and build a relationship with Him. The following statements describe what the Seventh-day Adventist Church believes about God and His Word"
+    }
+
+]

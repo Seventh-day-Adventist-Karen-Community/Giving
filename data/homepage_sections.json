@@ -1,0 +1,132 @@
+[
+  {
+    "id": "1",
+    "sequenceNo": 1,
+    "title": "You're Welcome Here!",
+    "message": "Karen Community is one church meeting in multiple locations, and we want to help you become the person God made you to be. No matter where you are in your journey, you’re invited to discover your purpose and live it out at Karen Community.",
+    "reverse": false,
+    "bg_dark": false,
+    "center": false,
+    "image": "/resources/WelcomeImage.png",
+    "bgImage": "/resources/WelcomeBG.png",
+    "bgImageLeft": "",
+    "bgImageRight": "",
+    "isCountdown": false,
+    "CountDownTo": "2021-05-25",
+    "actions": [
+      {"id":1, "path": "who-we-are", "text": "What To Expect", "primary": true },
+      {"id":2, "path": "/", "text": "Find a Location", "primary": false }
+    ],
+    "carousel": [],
+    "indent": false
+  },
+  {
+    "id": 2,
+    "sequenceNo": 2,
+    "title": "Worship With Us",
+    "message": "We’re passionate about creating music that encourages people to pursue a relationship with Jesus. Come worship with us this weekend, and listen now on your favorite digital music platform.",
+    "reverse": true,
+    "bg_dark": true,
+    "center": false,
+    "image": "",
+    "bgImage": "/resources/Worship.png",
+    "bgImageLeft": "",
+    "bgImageRight": "",
+    "isCountdown": false,
+    "CountDownTo": "2021-05-25",
+    "actions": [
+      {"id":1, "path": "who-we-are", "text": "Listen to Worship", "primary": false }
+    ],
+    "carousel": [],
+    "indent": false
+  },
+  {
+    "id": 3,
+    "sequenceNo": 3,
+    "title": "Need Prayer?",
+    "message": "There are times when life is overwhelming, and all we have are questions. In those moments, hope can feel far away. The great thing about prayer is that it shifts our perspective toward the One who stands ready to listen. No matter what you’re facing, we’d love to pray with you!",
+    "reverse": false,
+    "bg_dark": true,
+    "center": true,
+    "image": "",
+    "bgImage": "/resources/PrayerBG.png",
+    "bgImageLeft": "",
+    "bgImageRight": "",
+    "isCountdown": false,
+    "CountDownTo": "2021-05-25",
+    "actions": [
+      {"id":1, "path": "who-we-are", "text": "Ask For Prayer", "primary": false }
+    ],
+    "carousel": [],
+    "indent": false
+  },
+  {
+    "id": 4,
+    "sequenceNo": 4,
+    "title": "Rep Christ Everywhere",
+    "message": "Share good news with Karen Community apparel. It’s a great way to start conversations and invite people to church. Find your favorites at our online store.",
+    "reverse": false,
+    "bg_dark": false,
+    "center": false,
+    "image": "",
+    "bgImage": "/resources/Merchendise.png",
+    "bgImageLeft": "",
+    "bgImageRight": "",
+    "isCountdown": false,
+    "CountDownTo": "2021-05-25",
+    "actions": [{"id":1, "path": "/", "text": "Shop Now", "primary": false }],
+    "carousel": [],
+    "indent": true
+  },
+  {
+    "id": 5,
+    "sequenceNo": 5,
+    "title": "Free Church Resources",
+    "message": "At Karen Community, we're all about the Church. It’s impossible for a single church to reach everyone, but when the body of Christ works together, we can reach the world. Access the entire library of karen.Church resources, trainings, and apps for free.",
+    "reverse": false,
+    "bg_dark": false,
+    "center": false,
+    "image": "",
+    "bgImage": "",
+    "bgImageLeft": "",
+    "bgImageRight": "",
+    "isCountdown": false,
+    "CountDownTo": "2021-05-25",
+    "actions": [
+      {
+        "path": "who-we-are",
+        "text": "Youth Ministry Online",
+        "primary": true
+      },
+      { "id":1, "path": "/", "text": "Get Free Church Resources", "primary": false }
+    ],
+    "carousel": [
+      {
+        "id":1,
+        "image": "https://production-cms-assets.life.church/pages/homepage/Open%20Resources%20Images/Open_COWorship.jpeg?auto=format&imgixFP=1161709410&ixlib=react-9.5.2&w=214&dpr=1&q=75",
+        "link": "/"
+      },
+      {
+        "id":1,
+        "image": "https://production-cms-assets.life.church/pages/homepage/Open%20Resources%20Images/Open_KidsServices.jpeg?auto=format&imgixFP=1811890492&ixlib=react-9.5.2&w=214&dpr=1&q=75",
+        "link": "/"
+      },
+      {
+        "id":1,
+        "image": "https://production-cms-assets.life.church/pages/homepage/Open%20Resources%20Images/Open_GodSoGood.jpeg?auto=format&imgixFP=674112416&ixlib=react-9.5.2&w=214&dpr=1&q=75",
+        "link": "/"
+      },
+      {
+        "id":1,
+        "image": "https://production-cms-assets.life.church/pages/homepage/Open%20Resources%20Images/Open_ABabyAndABush.jpeg?auto=format&imgixFP=56175043&ixlib=react-9.5.2&w=214&dpr=1&q=75",
+        "link": "/"
+      },
+      {
+        "id":1,
+        "image": "https://production-cms-assets.life.church/pages/homepage/Open%20Resources%20Images/Open_symphony_album.jpeg?auto=format&imgixFP=1535682439&ixlib=react-9.5.2&w=214&dpr=1&q=75",
+        "link": "/"
+      }
+    ],
+    "indent": false
+  }
+]

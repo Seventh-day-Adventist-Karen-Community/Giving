@@ -1,0 +1,18 @@
+version: '3'
+services:
+  nextjs:
+    container_name: frontend-app
+    expose:
+      - 3000
+    build:
+      context: ./
+    env_file:
+      - ./.env
+    restart: always
+  nginx:
+    container_name: nginx-frontend-app
+    build:
+      context: ./nginx
+    ports:
+      - 81:80
+    restart: always

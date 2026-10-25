@@ -1,0 +1,62 @@
+{
+  "name": "KarenCommunityGiving",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "run": "NODE_ENV=production node server.js",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.9",
+    "@ducanh2912/next-pwa": "^6.1.0",
+    "@hookform/resolvers": "^3.4.2",
+    "@lexical/react": "^0.11.1",
+    "@tinymce/tinymce-react": "^4.3.0",
+    "animate.css": "^4.1.1",
+    "apollo-upload-client": "^17.0.0",
+    "cookies-next": "^6.1.1",
+    "crypto-js": "^4.2.0",
+    "framer-motion": "^10.12.16",
+    "graphql": "^16.6.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-alice-carousel": "^2.7.1",
+    "react-animation-on-scroll": "^5.1.0",
+    "react-countdown": "^2.3.5",
+    "react-dom": "19.3.1",
+    "react-hook-form": "^7.51.5",
+    "react-icons": "^4.8.0",
+    "react-player": "^2.11.0",
+    "react-tailwindcss-datepicker": "^1.6.1",
+    "react-youtube": "^10.1.0",
+    "sharp": "^0.35.5",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.19.3/xlsx-0.19.3.tgz",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "18.11.7",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/react-draft-wysiwyg": "^1.13.4",
+    "autoprefixer": "^10.4.13",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.3",
+    "fast-glob": "^3.3.3",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "webpack": "^5.88.2"
+  },
+  "allowScripts": {},
+  "overrides": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0"
+  }
+}

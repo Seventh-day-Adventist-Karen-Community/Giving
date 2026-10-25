@@ -1,0 +1,88 @@
+{
+    "name": "SDA Karen Community",
+    "lang": "en-US",
+    "start_url": "/",
+    "scope": "/",
+    "short_name":"SDAKCC",
+    "display": "standalone",
+    "theme_color":"#800000",
+    "orientation":"Potrait",
+    "description":"The church is like a fishing net that catches good and bad fish. The LORD help you and me to be the good fish (sincere Christians) who will be gathered for the Kingdom of God (Matt 13:47-49).",
+    "background_color":"#800000",    
+    "icons":[
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "shortcuts":[
+        {
+            "name": "Giving.",
+            "description": "You can support the work Karen Community is doing in your community and around the world.",
+            "url": "/giving",
+            "icons": [
+                {
+                    "src": "/charity.png",
+                    "type": "image/png",
+                    "purpose": "any"
+                }                
+            ]
+            
+        },{
+            "name": "Give With Mpesa.",
+            "description": "You can support the work Karen Community is doing in your community and around the world.",
+            "url": "/give-now/mpesa",
+            "icons": [
+                {
+                    "src": "/charity.png",
+                    "type": "image/png",
+                    "purpose": "any"
+                }                
+            ]            
+        },
+        {
+            "name":"Karen Portal",
+            "description": "Login To Your Portal Account",
+            "url":"/account",
+            "icons": [
+                {
+                    "src": "/icon-192x192.png",
+                    "type": "image/png",
+                    "purpose": "any"
+                }
+                
+            ]
+        },
+        {
+            "name": "Media",
+            "description": "View the list of materials available for your usage",
+            "url": "/media"
+        },
+        {
+            "name": "Contact Us",
+            "description": "P.O Box 15973 - 00509 Karen, Nairobi Kenya · Karen, Nairobi · info@sdackc.org · + 254 748 826 726 · www.sdackc.org · SDAChurchKaren · @SDAChurchKaren · @sdachurchkaren.",
+            "url": "/contact-us"
+        },
+        {
+            "name": "Who We Are",
+            "description": "Karen Community started as a prayer-cell in September 2011 where a few families met occasionally in their homes for prayer and Bible study.",
+            "url": "/who-we-are"
+        }        
+    ]
+}
