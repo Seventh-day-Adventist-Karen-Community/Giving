@@ -227,13 +227,6 @@ const Page = () => {
     const availableOtherPayTypes = otherPayTypes.filter((payType) => !addedOtherIndexes.includes(payType.index))
     const total = (state.total || 0).toFixed(2)
 
-    const indexedPayTypes = (payTypes || []).map((payType, index) => ({ ...payType, index }))
-    const fixedPayTypes = indexedPayTypes.filter((payType) => isFixedPayType(payType))
-    const otherPayTypes = indexedPayTypes.filter((payType) => !isFixedPayType(payType))
-    const addedOtherPayTypes = otherPayTypes.filter((payType) => addedOtherIndexes.includes(payType.index))
-    const availableOtherPayTypes = otherPayTypes.filter((payType) => !addedOtherIndexes.includes(payType.index))
-    const total = (state.total || 0).toFixed(2)
-
     return (
         <div className="flex flex-col flex-grow lg:min-h-screen bg-gray-50">
             <section className="relative w-full overflow-hidden text-white">
